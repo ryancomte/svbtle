@@ -1,0 +1,84 @@
+body{
+    font-family: "Helvetica Neue", sans-serif;
+}
+.logo {
+    background: black;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    border: 3px solid white;
+    box-shadow: 0 0 0 5px black;
+    margin-top: 39px;
+    margin-right: 29px;
+    margin-bottom: 25px;
+}
+
+ul{
+    list-style: none;
+    margin-left:0;
+    padding-left: 0;
+    float: right;
+    text-align: right;
+    clear: both;
+    margin-right: 29px;
+}
+
+ul li {
+    padding-bottom: 13px;
+}
+
+ul li:nth-child(3){
+    padding-bottom: 28px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #acacac;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+section{
+    float:left;
+    border-right: 1px solid #eee;
+    box-sizing: border-box;
+}
+
+section header {
+    clear: both;
+}
+
+section:first-child{
+    width: 8%;
+}
+
+section:last-child{
+    width: 30%;
+    border:none;
+}
+
+section:nth-child(2){
+    width: 60%;
+    padding:0 150px;
+}
+
+section div{
+    float: right;
+}
+
+.title{
+    float:left;
+    font-size: 30px;
+    margin-top: 33px;
+    margin-bottom: 40px;
+    color: #acacac;
+    font-weight: 100;
+
+}
+
+.title em{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-style: normal;
+    color: black;
+}
